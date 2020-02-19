@@ -12,7 +12,7 @@ def capturarDados(token=None):
         os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
         api_service_name = "youtube"
         api_version = "v3"
-        DEVELOPER_KEY = "AIzaSyByJ4leJSWCjGhm4T52fxHxoj-45NO2AQA"
+        DEVELOPER_KEY = "sua chave"
 
         youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey= DEVELOPER_KEY)
 
@@ -28,7 +28,7 @@ def capturarDados(token=None):
         os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
         api_service_name = "youtube"
         api_version = "v3"
-        DEVELOPER_KEY = "AIzaSyByJ4leJSWCjGhm4T52fxHxoj-45NO2AQA"
+        DEVELOPER_KEY = "sua chave"
 
         youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
 
